@@ -26,7 +26,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'TZL' => '153924478@qq.com' }
   #项目宿主的远程仓库地址
-  s.source           = { :git => 'https://gitee.com/tzlCool/PodPrivateLib', :tag => s.version.to_s }
+  s.source           = { :git => 'https://gitee.com/tzlCool/PodPrivateLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
