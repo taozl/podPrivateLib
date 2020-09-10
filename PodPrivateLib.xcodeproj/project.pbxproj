@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A829A90B39CC8290E22AD8E7 /* Pods_PodPrivateLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871A7BC8C0D345603A8A4D9D /* Pods_PodPrivateLib.framework */; };
+		B692E2392509F8FF006143DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E2382509F8FF006143DB /* AppDelegate.m */; };
+		B692E23F2509F8FF006143DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E23E2509F8FF006143DB /* ViewController.m */; };
+		B692E2422509F8FF006143DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B692E2402509F8FF006143DB /* Main.storyboard */; };
+		B692E2442509F8FF006143DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B692E2432509F8FF006143DB /* Assets.xcassets */; };
+		B692E2472509F8FF006143DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B692E2452509F8FF006143DB /* LaunchScreen.storyboard */; };
+		B692E24A2509F8FF006143DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B692E2492509F8FF006143DB /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66E4F98B950965AC60C22962 /* Pods-PodPrivateLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodPrivateLib.debug.xcconfig"; path = "Target Support Files/Pods-PodPrivateLib/Pods-PodPrivateLib.debug.xcconfig"; sourceTree = "<group>"; };
+		871A7BC8C0D345603A8A4D9D /* Pods_PodPrivateLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodPrivateLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F7693212910AD059A165790 /* Pods-PodPrivateLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodPrivateLib.release.xcconfig"; path = "Target Support Files/Pods-PodPrivateLib/Pods-PodPrivateLib.release.xcconfig"; sourceTree = "<group>"; };
+		B692E2342509F8FF006143DB /* PodPrivateLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodPrivateLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B692E2372509F8FF006143DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B692E2382509F8FF006143DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B692E23D2509F8FF006143DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B692E23E2509F8FF006143DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B692E2412509F8FF006143DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B692E2432509F8FF006143DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B692E2462509F8FF006143DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B692E2482509F8FF006143DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B692E2492509F8FF006143DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B692E2312509F8FF006143DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A829A90B39CC8290E22AD8E7 /* Pods_PodPrivateLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BE41025FFFD7FCBF8F6B558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				871A7BC8C0D345603A8A4D9D /* Pods_PodPrivateLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		759AD598B4E45D80EEDEB90B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66E4F98B950965AC60C22962 /* Pods-PodPrivateLib.debug.xcconfig */,
+				9F7693212910AD059A165790 /* Pods-PodPrivateLib.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B692E22B2509F8FF006143DB = {
+			isa = PBXGroup;
+			children = (
+				B692E2362509F8FF006143DB /* PodPrivateLib */,
+				B692E2352509F8FF006143DB /* Products */,
+				759AD598B4E45D80EEDEB90B /* Pods */,
+				6BE41025FFFD7FCBF8F6B558 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B692E2352509F8FF006143DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B692E2342509F8FF006143DB /* PodPrivateLib.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B692E2362509F8FF006143DB /* PodPrivateLib */ = {
+			isa = PBXGroup;
+			children = (
+				B692E2372509F8FF006143DB /* AppDelegate.h */,
+				B692E2382509F8FF006143DB /* AppDelegate.m */,
+				B692E23D2509F8FF006143DB /* ViewController.h */,
+				B692E23E2509F8FF006143DB /* ViewController.m */,
+				B692E2402509F8FF006143DB /* Main.storyboard */,
+				B692E2432509F8FF006143DB /* Assets.xcassets */,
+				B692E2452509F8FF006143DB /* LaunchScreen.storyboard */,
+				B692E2482509F8FF006143DB /* Info.plist */,
+				B692E2492509F8FF006143DB /* main.m */,
+			);
+			path = PodPrivateLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B692E2332509F8FF006143DB /* PodPrivateLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B692E24D2509F8FF006143DB /* Build configuration list for PBXNativeTarget "PodPrivateLib" */;
+			buildPhases = (
+				EBCBCEC126C9B48BA2FEE644 /* [CP] Check Pods Manifest.lock */,
+				B692E2302509F8FF006143DB /* Sources */,
+				B692E2312509F8FF006143DB /* Frameworks */,
+				B692E2322509F8FF006143DB /* Resources */,
+				582A485A95EE3E6C02807574 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodPrivateLib;
+			productName = PodPrivateLib;
+			productReference = B692E2342509F8FF006143DB /* PodPrivateLib.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B692E22C2509F8FF006143DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Zl;
+				TargetAttributes = {
+					B692E2332509F8FF006143DB = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = B692E22F2509F8FF006143DB /* Build configuration list for PBXProject "PodPrivateLib" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B692E22B2509F8FF006143DB;
+			productRefGroup = B692E2352509F8FF006143DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B692E2332509F8FF006143DB /* PodPrivateLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B692E2322509F8FF006143DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B692E2472509F8FF006143DB /* LaunchScreen.storyboard in Resources */,
+				B692E2442509F8FF006143DB /* Assets.xcassets in Resources */,
+				B692E2422509F8FF006143DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		582A485A95EE3E6C02807574 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PodPrivateLib/Pods-PodPrivateLib-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PodPrivateLib/Pods-PodPrivateLib-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PodPrivateLib/Pods-PodPrivateLib-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBCBCEC126C9B48BA2FEE644 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodPrivateLib-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B692E2302509F8FF006143DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B692E23F2509F8FF006143DB /* ViewController.m in Sources */,
+				B692E2392509F8FF006143DB /* AppDelegate.m in Sources */,
+				B692E24A2509F8FF006143DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B692E2402509F8FF006143DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B692E2412509F8FF006143DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B692E2452509F8FF006143DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B692E2462509F8FF006143DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B692E24B2509F8FF006143DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B692E24C2509F8FF006143DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B692E24E2509F8FF006143DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66E4F98B950965AC60C22962 /* Pods-PodPrivateLib.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PodPrivateLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PodPrivateLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B692E24F2509F8FF006143DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7693212910AD059A165790 /* Pods-PodPrivateLib.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PodPrivateLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PodPrivateLib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B692E22F2509F8FF006143DB /* Build configuration list for PBXProject "PodPrivateLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B692E24B2509F8FF006143DB /* Debug */,
+				B692E24C2509F8FF006143DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B692E24D2509F8FF006143DB /* Build configuration list for PBXNativeTarget "PodPrivateLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B692E24E2509F8FF006143DB /* Debug */,
+				B692E24F2509F8FF006143DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B692E22C2509F8FF006143DB /* Project object */;
+}

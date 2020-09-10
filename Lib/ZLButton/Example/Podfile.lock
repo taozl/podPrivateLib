@@ -1,0 +1,16 @@
+PODS:
+  - ZLButton (0.0.1)
+
+DEPENDENCIES:
+  - ZLButton (from `../`)
+
+EXTERNAL SOURCES:
+  ZLButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZLButton: c46cd47bf08f44d7c021325d8ca95d3eea56732e
+
+PODFILE CHECKSUM: 7a87117ddcdcfbadaebc1a86188cf1021de1559f
+
+COCOAPODS: 1.9.3
